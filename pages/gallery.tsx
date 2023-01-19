@@ -8,7 +8,7 @@ import GalleryHeadSection from '@components/GalleryHeadSection';
 
 const GalleryPage = () => {
   return (
-    <>
+    <div className='mt-20'>
       <GalleryHeadSection />
 
       <div className='max-w-2xl px-8 py-16 mx-auto sm:py-24 sm:px-6 lg:max-w-9xl lg:px-8'>
@@ -30,8 +30,7 @@ const GalleryPage = () => {
           ))}
         </div>
       </div>
-      <Footer />
-    </>
+    </div>
   );
 };
 

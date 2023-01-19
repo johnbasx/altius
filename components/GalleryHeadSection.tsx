@@ -66,7 +66,11 @@ const GalleryHeadSection = () => {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ delay: 0.2, duration: 0.8, type: 'tween' }}
               >
-                To keep winning, we have to keep{' '}
+                To keep{' '}
+                <span className='text-transparent bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text'>
+                  winning
+                </span>
+                , we have to keep{' '}
                 <span className='text-transparent bg-gradient-to-r from-red-500 to-orange-500 bg-clip-text'>
                   improving.
                 </span>

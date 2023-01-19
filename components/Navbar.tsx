@@ -83,7 +83,7 @@ export function Navbar() {
         <nav className='relative z-50 font-semibold'>
           <ul className='flex items-center'>
             <li>
-              <Link href='#'>
+              <Link href='/'>
                 <span>
                   <span className='sr-only'>Home</span>
                   <Image

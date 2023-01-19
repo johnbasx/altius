@@ -7,7 +7,7 @@ const ContactUsSection = () => {
       className='relative pt-16 pb-32 flex flex-col content-center items-center justify-center min-h-[95vh]'
       // style={{ minHeight: "95vh" }}
     >
-      <div className='absolute top-0 w-full h-full bg-top bg-cover bg-[url(/images/gym-girl-orange.jpg)]'>
+      <div className='absolute top-0 w-full h-full bg-top bg-cover bg-[url(/images/gym-girl-04.jpg)]'>
         <span className='absolute w-full h-full bg-black opacity-75'></span>
       </div>
       <div className='relative block pb-20 text-white'>

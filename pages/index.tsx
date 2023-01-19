@@ -14,29 +14,20 @@ const inter = Inter({ subsets: ['latin'] });
 export default function Home() {
   return (
     <div>
-      <Navbar />
-      {/* <!-- Navbar --> */}
-      {/* <NavigationSection /> */}
-      {/* <!-- Main Area --> */}
-      <main>
-        {/* <!-- Hero --> */}
-        <HeroSection />
+      {/* <!-- Hero --> */}
+      <HeroSection />
 
-        {/* <!-- About Section --> */}
-        <AboutSection />
-        {/* <Gallery /> */}
+      {/* <!-- About Section --> */}
+      <AboutSection />
+      {/* <Gallery /> */}
 
-        {/* <!-- Trainers Section --> */}
-        <TrainersSection />
+      {/* <!-- Trainers Section --> */}
+      <TrainersSection />
 
-        {/* <!-- Contact Header Section --> */}
-        <ContactUsSection />
+      {/* <!-- Contact Header Section --> */}
+      <ContactUsSection />
 
-        {/* <!-- Contact Form --> */}
-      </main>
-
-      {/* <!-- Footer --> */}
-      <Footer />
+      {/* <!-- Contact Form --> */}
     </div>
   );
 }
