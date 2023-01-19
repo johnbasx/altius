@@ -1,0 +1,51 @@
+export const trainersData = [
+  {
+    id: 101,
+    name: 'Ng. Radhakrishna',
+    designation: 'Trainer',
+    type: 'Personal Trainer',
+    imageSrc: require('../public/images/trainers/trainer-1.jpeg'),
+  },
+  {
+    id: 102,
+    name: 'Nongdren',
+    designation: 'Trainer',
+    type: 'Personal Trainer',
+    imageSrc: require('../public/images/trainers/trainer-2.jpeg'),
+  },
+  {
+    id: 103,
+    name: 'Sanathoi',
+    designation: 'Trainer',
+    type: 'Personal Trainer',
+    imageSrc: require('../public/images/trainers/trainer-3.jpeg'),
+  },
+  {
+    id: 104,
+    name: 'Ta Tomba',
+    designation: 'Trainer',
+    type: 'Personal Trainer',
+    imageSrc: require('../public/images/trainers/trainer-4.jpeg'),
+  },
+  {
+    id: 105,
+    name: 'Amuton',
+    designation: 'Trainer',
+    type: 'Personal Trainer',
+    imageSrc: require('../public/images/trainers/trainer-5.jpeg'),
+  },
+  {
+    id: 106,
+    name: 'Shakhenbi',
+    designation: 'Trainer',
+    type: 'Personal Trainer',
+    imageSrc: require('../public/images/trainers/trainer-6.jpeg'),
+  },
+  {
+    id: 107,
+    name: 'Ningthibi',
+    designation: 'Trainer',
+    type: 'Personal Trainer',
+    imageSrc: require('../public/images/trainers/trainer-7.jpeg'),
+  },
+];
