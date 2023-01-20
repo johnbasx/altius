@@ -5,6 +5,7 @@ import { IMAGES_DATA } from '@content/imageImport';
 import BlurImage from '@components/Gallery';
 import Footer from '@components/Footer';
 import GalleryHeadSection from '@components/GalleryHeadSection';
+import VideoBackground from '@components/VideoBackground';
 
 const GalleryPage = () => {
   return (
@@ -24,6 +25,7 @@ const GalleryPage = () => {
             journey we have come along.
           </p>
         </div>
+
         <div className='grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8'>
           {IMAGES_DATA.map((image, index) => (
             <BlurImage key={'Altius Gallery image' + index * 3} image={image} />

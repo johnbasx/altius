@@ -47,6 +47,13 @@ function MobileNavigation() {
                 className='absolute inset-x-0 p-6 mt-4 space-y-4 text-lg origin-top font-semibold bg-gradient-to-br from-black to-purple-900/20 border-[0.05rem] shadow-xl border-slate-50/20 top-full rounded-2xl text-slate-100 ring-1 ring-slate-900/5'
               >
                 <li>
+                  <Link href='/'>
+                    <span className='block w-full' onClick={() => close()}>
+                      Home
+                    </span>
+                  </Link>
+                </li>
+                <li>
                   <Link href='/gallery'>
                     <span className='block w-full' onClick={() => close()}>
                       Gallery
@@ -54,14 +61,14 @@ function MobileNavigation() {
                   </Link>
                 </li>
                 <li>
-                  <Link href='#testimonials'>
+                  <Link href='/testimonials'>
                     <span className='block w-full' onClick={() => close()}>
                       Testimonials
                     </span>
                   </Link>
                 </li>
                 <li>
-                  <Link href='#aboutus'>
+                  <Link href='/contact-us'>
                     <span className='block w-full' onClick={() => close()}>
                       About us
                     </span>
@@ -97,6 +104,13 @@ export function Navbar() {
               </Link>
             </li>
             <li className='hidden ml-12 md:block'>
+              <Link href='/'>
+                <span className='px-2 py-1 rounded-lg text-slate-300 hover:text-slate-400'>
+                  Home
+                </span>
+              </Link>
+            </li>
+            <li className='hidden ml-6 md:block'>
               <Link href='/gallery'>
                 <span className='px-2 py-1 rounded-lg text-slate-300 hover:text-slate-400'>
                   Gallery
@@ -104,14 +118,14 @@ export function Navbar() {
               </Link>
             </li>
             <li className='hidden ml-6 md:block'>
-              <Link href='#testimonials'>
+              <Link href='/testimonials'>
                 <span className='px-2 py-1 rounded-lg text-slate-300 hover:text-slate-400'>
                   Testimonials
                 </span>
               </Link>
             </li>
             <li className='hidden ml-6 md:block'>
-              <Link href='#pricing'>
+              <Link href='/contact-us'>
                 <span className='px-2 py-1 rounded-lg text-slate-300 hover:text-slate-400'>
                   Contact us
                 </span>

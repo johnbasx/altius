@@ -1,5 +1,5 @@
 import React from 'react';
-import { motion, AnimatePresence, Variants } from 'framer-motion';
+import { motion } from 'framer-motion';
 import VideoBackground from './VideoBackground';
 
 const HeroSection = () => {
@@ -14,7 +14,7 @@ const HeroSection = () => {
           className='absolute w-full h-full bg-black opacity-75'
         ></span>
       </div> */}
-      <VideoBackground />
+      <VideoBackground videoSrc='/videos/altius-vid-03.mp4' />
 
       <div className='container relative mx-auto' data-aos='fade-in'>
         <div className='flex flex-wrap items-center'>

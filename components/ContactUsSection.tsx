@@ -40,14 +40,14 @@ const ContactUsSection = () => {
         </div>
       </div>
       <div className='relative block py-10 lg:pt-0'>
-        <div className='container px-4 mx-auto'>
+        <div className='container px-2 mx-auto'>
           <div className='flex flex-wrap justify-center -mt-4 lg:-mt-64'>
-            <div className='w-full px-4'>
+            <div className='w-full px-2'>
               <div
                 className='relative flex flex-col w-full min-w-0 mb-6 break-words shadow-lg rounded-3xl'
                 data-aos='fade-up-right'
               >
-                <div className='flex-auto p-5 text-white border lg:p-10 rounded-3xl bg-gradient-to-tl from-amber-200/50 border-orange-200/20 to-orange-400/50 backdrop-blur-lg'>
+                <div className='flex-auto p-5 text-white border py-7 lg:p-10 rounded-3xl bg-gradient-to-tl from-amber-200/50 border-orange-200/20 to-orange-400/50 backdrop-blur-lg'>
                   <h4 className='text-3xl font-bold'>Want to work with us?</h4>
                   <p className='mt-1 mb-4 leading-relaxed'>
                     Complete this form and we will get back to you in 24 hours.

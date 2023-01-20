@@ -8,4 +8,4 @@ export const IMAGES_DATA = (function () {
   return arr;
 })();
 
-console.log(IMAGES_DATA);
+// console.log(IMAGES_DATA);

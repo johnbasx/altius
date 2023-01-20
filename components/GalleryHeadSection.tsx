@@ -95,7 +95,7 @@ const GalleryHeadSection = () => {
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.6, duration: 0.8, type: 'tween' }}
             >
-              <button className='inline-flex items-center px-6 py-3 space-x-2 font-semibold text-black transition-all duration-200 ease-in rounded-full bg-gradient-to-r from-white to-orange-200 hover:bg-white hover:from-white hover:to-slate-50'>
+              <button className='inline-flex items-center px-6 py-3 space-x-2 font-semibold text-black transition-all duration-200 ease-in rounded-full bg-gradient-to-tr to-white from-orange-200 hover:bg-white hover:from-white hover:to-slate-50'>
                 <span>Join us now!</span>
                 <TiArrowRight className='w-6 h-6' />
               </button>
