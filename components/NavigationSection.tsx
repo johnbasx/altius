@@ -4,7 +4,7 @@ import { HiMenuAlt3 } from 'react-icons/hi';
 import clsx from 'clsx';
 
 const NavigationSection = () => {
-  const [menuOpen, setMenuOpen] = useState<Boolean>(false);
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <nav className='absolute top-0 z-50 flex flex-wrap items-center justify-between w-full px-2 py-3 navbar-expand-lg'>
       <div className='container flex flex-wrap items-center justify-center px-4 mx-auto'>

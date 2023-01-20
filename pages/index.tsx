@@ -8,6 +8,7 @@ import ContactUsSection from '@components/ContactUsSection';
 import Footer from '@components/Footer';
 import Gallery from '@components/Gallery';
 import { Navbar } from '@components/Navbar';
+import VideoBackground from '@components/VideoBackground';
 
 const inter = Inter({ subsets: ['latin'] });
 

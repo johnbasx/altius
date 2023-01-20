@@ -1,18 +1,21 @@
 import React from 'react';
 import { motion, AnimatePresence, Variants } from 'framer-motion';
+import VideoBackground from './VideoBackground';
 
 const HeroSection = () => {
   return (
     <div
-      className='relative pt-16 pb-32 flex content-center items-center justify-center min-h-[95vh]'
+      className='relative pt-16 pb-32 flex content-center items-center justify-center min-h-[95vh] overflow-hidden'
       // style={{ minHeight: "95vh" }}
     >
-      <div className='absolute top-0 w-full h-full bg-top bg-cover bg-[url(/images/gym-girl-orange.jpg)]'>
+      {/* <div className='absolute top-0 w-full h-full bg-top bg-cover bg-[url(/images/gym-girl-orange.jpg)]'>
         <span
           id='blackOverlay'
           className='absolute w-full h-full bg-black opacity-75'
         ></span>
-      </div>
+      </div> */}
+      <VideoBackground />
+
       <div className='container relative mx-auto' data-aos='fade-in'>
         <div className='flex flex-wrap items-center'>
           <motion.div

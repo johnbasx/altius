@@ -92,11 +92,11 @@ const Layout = ({
         />
         <meta name='theme-color' content='#ffffff'></meta>
       </Head>
-      <body>
+      <div>
         <Navbar />
         <main>{children}</main>
         <Footer />
-      </body>
+      </div>
     </>
   );
 };

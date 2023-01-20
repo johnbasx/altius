@@ -81,7 +81,7 @@ export function Navbar() {
     <header className='absolute top-0 z-50 flex flex-wrap items-center justify-between w-full px-2 py-6 bg-transparent'>
       <Container>
         <nav className='relative z-50 font-semibold'>
-          <ul className='flex items-center'>
+          <ul className='flex items-center flex-nowrap'>
             <li>
               <Link href='/'>
                 <span>
@@ -124,17 +124,13 @@ export function Navbar() {
                 </span>
               </Link>
             </li>
-            <li className='relative ml-auto md:ml-8'>
-              <div className='absolute inset-0 w-full h-full duration-1000 scale-105 opacity-75 bg-gradient-to-tr from-orange-500 to-red-400 blur-xl animate-pulse -z-10' />
-              <ButtonLink
-                href='/register'
-                color='blue'
-                className='py-2.5 text-xs transition duration-150 ease-in md:text-sm bg-gradient-to-r from-orange-600 to-red-500 text-ellipsis'
-              >
-                <span>
+            <li className='relative ml-auto'>
+              <div className='absolute inset-0 w-full h-full scale-105 opacity-75 bg-gradient-to-tr from-orange-500 to-red-400 blur-xl animate-pulse -z-10 group-hover:opacity-90 group-hover:blur-2xl' />
+              <Link href='/register'>
+                <span className='py-2.5 px-4 rounded-full cursor-pointer text-white text-xs transition duration-150 ease-in bg-gradient-to-r from-orange-600 to-red-500 font-semibold focus:outline-none'>
                   Get started<span className='hidden lg:inline'> today</span>
                 </span>
-              </ButtonLink>
+              </Link>
             </li>
             <li className='ml-5 -mr-1 md:hidden'>
               <MobileNavigation />

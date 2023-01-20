@@ -4,13 +4,20 @@ import { FaDumbbell, FaHardHat, FaUsers } from 'react-icons/fa';
 
 const AboutSection = () => {
   return (
-    <section id='about' className='relative py-20 text-white bg-black'>
+    <section
+      id='about'
+      className='relative py-20 overflow-hidden text-white bg-transparent'
+    >
       <div className='container px-4 mx-auto'>
-        <div className='flex flex-wrap items-center'>
+        <div className='relative flex flex-wrap items-center overflow-hidden'>
           <div className='px-4 ml-auto mr-auto md:w-4/12' data-aos='fade-right'>
-            <img
-              alt='...'
-              className='max-w-full rounded-lg shadow-lg'
+            <Image
+              alt='About the gym brief'
+              className='object-cover max-w-full rounded-2xl shadow-lg h-[50vh] w-full'
+              height={100}
+              width={100}
+              unoptimized
+              priority
               src='https://images.unsplash.com/photo-1550345332-09e3ac987658?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80'
             />
           </div>
